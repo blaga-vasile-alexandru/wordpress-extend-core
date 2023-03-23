@@ -1,0 +1,48 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "title": "Card List",
+  "version": "0.1.0",
+  "name": "wp-extend-core/card-list",
+  "category": "design",
+  "icon": "cover-image",
+  "textdomain": "card-list",
+  "editorScript": "file:./index.js",
+  "style": "file:./style-index.css",
+  "editorStyle": "file:./index.css",
+  "attributes": {
+    "queryLoop": {
+      "type": "boolean",
+      "default": false
+    },
+    "namespace": {
+      "type": "string"
+    },
+    "loopNumber": {
+      "type": "number",
+      "default": 3
+    }
+  },
+  "providesContext": {
+    "loopNumber": "loopNumber"
+  },
+  "supports": {
+    "defaultStylePicker": true,
+    "anchor": true,
+    "color": {
+      "background": true,
+      "text": false
+    },
+    "spacing": {
+      "margin": true,
+      "padding": true
+    },
+    "align": false,
+    "alignWide": false,
+    "typography": {
+      "fontSize": true,
+      "lineHeight": true
+    },
+    "className": true
+  }
+}

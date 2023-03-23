@@ -1,0 +1,1 @@
+{"version":3,"file":"index.css","mappings":";;;AAEI;EACE;AADN;AAEM;EACE;EACA;EACA;AAAR,C","sources":["webpack://wordpress-extend-core/./src/main.sass"],"sourcesContent":["nav\n  &.wp-extend-core-nav\n    & ul\n      display: flex\n      & li > a\n        padding: 10px\n        background: black\n        font-size: 20px\n"],"names":[],"sourceRoot":""}

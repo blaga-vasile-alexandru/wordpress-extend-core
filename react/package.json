@@ -1,0 +1,29 @@
+{
+  "name": "wordpress-extend-core",
+  "version": "1.0.0",
+  "description": "WordPress extend core",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "wp-scripts build",
+    "start": "wp-scripts start"
+  },
+  "keywords": [
+    "wordPress",
+    "extend",
+    "core",
+    "core"
+  ],
+  "author": "Vasile-Alexandru Blaga",
+  "license": "ISC",
+  "devDependencies": {
+    "@wordpress/scripts": "^25.2.0"
+  },
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react-app": "^3.1.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "wp-media-uploader": "^1.0.4"
+  }
+}

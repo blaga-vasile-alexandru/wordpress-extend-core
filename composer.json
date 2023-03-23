@@ -1,0 +1,17 @@
+{
+    "name": "blaga/wordpress-extend-core",
+    "description": "WordPress extend source core.",
+    "type": "wpackagist-plugin",
+    "autoload": {
+        "psr-4": {
+            "WordPressExtendCore\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Vasile-Alexandru Blaga",
+            "email": "blaga.alexandru.vasile@gmail.com"
+        }
+    ],
+    "require": {}
+}

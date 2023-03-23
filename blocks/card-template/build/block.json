@@ -1,0 +1,42 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "title": "Card Template",
+  "version": "0.1.0",
+  "name": "wp-extend-core/card-template",
+  "category": "design",
+  "icon": "cover-image",
+  "textdomain": "card-list",
+  "editorScript": "file:./index.js",
+  "style": "file:./style-index.css",
+  "editorStyle": "file:./index.css",
+  "parent": [
+    "wp-extend-core/card-list"
+  ],
+  "usesContext": [
+    "loopNumber"
+  ],
+  "supports": {
+    "reusable": false,
+    "html": false,
+    "align": false,
+    "anchor": true,
+    "__experimentalLayout": {
+      "allowEditing": false
+    },
+    "defaultStylePicker": true,
+    "color": {
+      "background": true,
+      "text": false
+    },
+    "spacing": {
+      "margin": true,
+      "padding": true
+    },
+    "alignWide": false,
+    "typography": {
+      "fontSize": true,
+      "lineHeight": true
+    }
+  }
+}
